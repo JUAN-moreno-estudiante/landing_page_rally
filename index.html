@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rally Andino Moto Fest 2027 | Club Moteros de la Sabana</title>
+  <meta name="description" content="Rally Andino Moto Fest 2027: dos días de motociclismo en el Autódromo de Tocancipá, organizados por el Club Moteros de la Sabana.">
+  <link rel="icon" href="https://ui-avatars.com/api/?name=Moteros+Sabana&size=128&background=0e0e0e&color=ff5a1f&bold=true&rounded=true" type="image/png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "#sitio",
+        "name": "Rally Andino Moto Fest",
+        "description": "Sitio oficial del Rally Andino Moto Fest 2027.",
+        "inLanguage": "es-CO",
+        "publisher": { "@id": "#club" }
+      },
+      {
+        "@type": "MotorcycleDealer",
+        "@id": "#club",
+        "name": "Club Moteros de la Sabana",
+        "description": "Club y concesionario de motocicletas que organiza rodadas y eventos de motociclismo en la Sabana de Bogotá.",
+        "logo": "https://ui-avatars.com/api/?name=Moteros+Sabana&size=128&background=0e0e0e&color=ff5a1f&bold=true&rounded=true",
+        "image": "https://ui-avatars.com/api/?name=Moteros+Sabana&size=128&background=0e0e0e&color=ff5a1f&bold=true&rounded=true",
+        "telephone": "+57 601 555 0127",
+        "email": "contacto@moterossabana.example",
+        "priceRange": "$$",
+        "foundingDate": "2015-06-14",
+        "openingHours": "Mo-Sa 09:00-18:00",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Carrera 7 # 12-45",
+          "addressLocality": "Chía",
+          "addressRegion": "Cundinamarca",
+          "postalCode": "250001",
+          "addressCountry": "CO"
+        }
+      },
+      {
+        "@type": "Event",
+        "@id": "#evento",
+        "name": "Rally Andino Moto Fest 2027",
+        "description": "Dos días de motociclismo: exhibición de pilotos, rodada abierta, prueba de motos trail y zona de talleres de mecánica básica.",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MotoX_racing._%2812022463866%29.jpg?width=1600",
+        "startDate": "2027-03-20T08:00:00-05:00",
+        "endDate": "2027-03-21T18:00:00-05:00",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "isAccessibleForFree": false,
+        "inLanguage": "es-CO",
+        "maximumAttendeeCapacity": 3000,
+        "location": {
+          "@type": "Place",
+          "name": "Autódromo de Tocancipá",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Km 3 vía Tocancipá – Sopó",
+            "addressLocality": "Tocancipá",
+            "addressRegion": "Cundinamarca",
+            "addressCountry": "CO"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 4.9655,
+            "longitude": -73.9126
+          }
+        },
+        "organizer": { "@id": "#club" },
+        "performer": { "@id": "#piloto" },
+        "offers": {
+          "@type": "Offer",
+          "name": "Entrada general (2 días)",
+          "url": "#entradas",
+          "price": 85000,
+          "priceCurrency": "COP",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2026-12-01T00:00:00-05:00",
+          "seller": { "@id": "#club" }
+        }
+      },
+      {
+        "@type": "Motorcycle",
+        "@id": "#moto",
+        "name": "Cóndor Trail 450",
+        "description": "Motocicleta trail de media cilindrada, pensada para carretera destapada y viajes largos. Disponible para prueba durante el evento.",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1979_Suzuki_PE175N_enduro_01.jpg?width=1200",
+        "brand": { "@type": "Brand", "name": "Cóndor Motors" },
+        "model": "Trail 450",
+        "vehicleModelDate": "2027",
+        "color": "Naranja / Negro",
+        "fuelType": "Gasolina",
+        "numberOfForwardGears": 6,
+        "vehicleEngine": {
+          "@type": "EngineSpecification",
+          "engineType": "Monocilíndrico, 4 tiempos, refrigerado por líquido",
+          "engineDisplacement": {
+            "@type": "QuantitativeValue",
+            "value": 449,
+            "unitCode": "CMQ",
+            "unitText": "cc"
+          },
+          "enginePower": {
+            "@type": "QuantitativeValue",
+            "value": 42,
+            "unitCode": "BHP",
+            "unitText": "hp"
+          }
+        },
+        "weightTotal": {
+          "@type": "QuantitativeValue",
+          "value": 172,
+          "unitCode": "KGM",
+          "unitText": "kg"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": 28900000,
+          "priceCurrency": "COP",
+          "availability": "https://schema.org/PreOrder",
+          "itemCondition": "https://schema.org/NewCondition",
+          "seller": { "@id": "#club" },
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": 28900000,
+            "priceCurrency": "COP",
+            "valueAddedTaxIncluded": true
+          }
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "#piloto",
+        "name": "Valentina Rojas",
+        "jobTitle": "Piloto de rally enduro",
+        "description": "Piloto colombiana de enduro, invitada especial del Rally Andino Moto Fest 2027.",
+        "image": "https://ui-avatars.com/api/?name=Valentina+Rojas&size=400&background=ff5a1f&color=0e0e0e&bold=true",
+        "nationality": { "@type": "Country", "name": "Colombia" },
+        "knowsAbout": ["Enduro", "Rally raid", "Conducción off-road"],
+        "memberOf": { "@id": "#club" }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Necesito traer mi propia moto?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Puedes asistir como espectador; para la rodada abierta sí necesitas tu moto, licencia vigente y casco certificado."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Puedo probar la Cóndor Trail 450?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí. Las pruebas de manejo son gratuitas con la entrada y se reservan en el stand del Club Moteros de la Sabana."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Hay parqueadero para motos?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí, el autódromo tiene parqueadero vigilado para motos sin costo adicional."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root{
+      --ink:#0e0e0e; --paper:#f4efe6; --fire:#ff5a1f; --ash:#2a2a2a; --muted:#9a948a;
+      --display: "Impact","Haettenschweiler","Arial Narrow Bold",sans-serif;
+      --body: system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--ink);color:var(--paper);font-family:var(--body);line-height:1.55}
+    a{color:inherit}
+    img{max-width:100%;display:block}
+    .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+
+    /* header */
+    header.top{position:sticky;top:0;z-index:10;background:rgba(14,14,14,.92);backdrop-filter:blur(6px);border-bottom:1px solid #222}
+    header.top .wrap{display:flex;align-items:center;gap:14px;height:64px}
+    header.top img{width:38px;height:38px}
+    header.top strong{font-family:var(--display);letter-spacing:.06em;font-size:20px;text-transform:uppercase}
+    nav{margin-left:auto;display:flex;gap:20px;font-size:14px}
+    nav a{text-decoration:none;color:#cfc8bb}
+    nav a:hover{color:var(--fire)}
+
+    /* hero */
+    .hero{position:relative;min-height:78vh;display:grid;align-items:end;overflow:hidden}
+    .hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(.55)}
+    .hero .wrap{position:relative;padding-bottom:56px}
+    .kicker{display:inline-block;background:var(--fire);color:var(--ink);font-weight:800;font-size:13px;letter-spacing:.14em;text-transform:uppercase;padding:6px 12px}
+    .hero h1{font-family:var(--display);font-size:clamp(48px,9vw,120px);line-height:.9;margin:18px 0 12px;text-transform:uppercase;letter-spacing:.01em}
+    .hero p{max-width:560px;font-size:18px;color:#efe6d8}
+    .facts{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
+    .facts span{border:1px solid rgba(244,239,230,.4);padding:8px 14px;font-size:14px;background:rgba(0,0,0,.35)}
+
+    section{padding:88px 0;border-bottom:1px solid #1f1f1f}
+    h2{font-family:var(--display);text-transform:uppercase;font-size:clamp(34px,5vw,58px);line-height:1;margin:0 0 8px}
+    h2 em{font-style:normal;color:var(--fire)}
+    .lead{color:#bdb5a8;max-width:640px;margin:0 0 36px}
+    .grid2{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+    .card{background:var(--ash);padding:28px}
+    dl{display:grid;grid-template-columns:max-content 1fr;gap:10px 18px;margin:0}
+    dt{color:var(--muted);font-size:13px;text-transform:uppercase;letter-spacing:.08em}
+    dd{margin:0}
+
+    /* moto */
+    .moto{background:var(--paper);color:var(--ink)}
+    .moto .lead{color:#55504a}
+    .moto .card{background:#fff}
+    .moto dt{color:#7a746b}
+    .price{font-family:var(--display);font-size:44px;margin:18px 0 0}
+
+    /* piloto */
+    .pilot{display:grid;grid-template-columns:280px 1fr;gap:40px;align-items:center}
+    .pilot img{border:4px solid var(--fire)}
+    .chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+    .chips span{background:#222;padding:6px 12px;font-size:13px}
+
+    /* entradas */
+    .ticket{display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap;background:var(--fire);color:var(--ink);padding:32px 36px}
+    .ticket h3{font-family:var(--display);font-size:34px;margin:0;text-transform:uppercase}
+    .ticket .big{font-family:var(--display);font-size:52px}
+
+    /* faq */
+    details{border-top:1px solid #2c2c2c;padding:18px 0}
+    details:last-child{border-bottom:1px solid #2c2c2c}
+    summary{cursor:pointer;font-weight:700;font-size:18px;list-style:none}
+    summary::before{content:"+ ";color:var(--fire);font-weight:900}
+    details[open] summary::before{content:"– "}
+    details p{color:#c6beb1;margin:10px 0 0}
+
+
+    footer{padding:40px 0;color:#8f887d;font-size:14px}
+    footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+
+    @media (max-width:820px){
+      nav{display:none}
+      .grid2,.pilot{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+
+  <header class="top">
+    <div class="wrap">
+      <img src="https://ui-avatars.com/api/?name=Moteros+Sabana&size=128&background=0e0e0e&color=ff5a1f&bold=true&rounded=true" alt="Logo Club Moteros de la Sabana">
+      <strong>Moteros de la Sabana</strong>
+      <nav>
+        <a href="#evento">Evento</a>
+        <a href="#moto">La moto</a>
+        <a href="#piloto">Piloto</a>
+        <a href="#entradas">Entradas</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Event -->
+  <div class="hero" id="evento">
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/MotoX_racing._%2812022463866%29.jpg?width=1600" alt="Ilustración del Rally Andino Moto Fest">
+    <div class="wrap">
+      <span class="kicker">20 y 21 de marzo de 2027</span>
+      <h1>Rally Andino<br>Moto Fest 2027</h1>
+      <p>Dos días de motociclismo: exhibición de pilotos, rodada abierta, prueba de motos trail y zona de talleres de mecánica básica.</p>
+      <div class="facts">
+        <span><time datetime="2027-03-20T08:00:00-05:00">Sáb 20 mar · 8:00 a. m.</time> – <time datetime="2027-03-21T18:00:00-05:00">Dom 21 mar · 6:00 p. m.</time></span>
+        <span>Autódromo de Tocancipá, Cundinamarca</span>
+        <span>Cupo: 3.000 asistentes</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Place + Organization -->
+  <section>
+    <div class="wrap grid2">
+      <div>
+        <h2>El <em>lugar</em></h2>
+        <p class="lead">El evento se realiza en pista y en el circuito off-road del autódromo, a 40 minutos de Bogotá.</p>
+        <div class="card">
+          <dl>
+            <dt>Lugar</dt><dd>Autódromo de Tocancipá</dd>
+            <dt>Dirección</dt><dd>Km 3 vía Tocancipá – Sopó</dd>
+            <dt>Municipio</dt><dd>Tocancipá, Cundinamarca, Colombia</dd>
+            <dt>Coordenadas</dt><dd>4.9655, -73.9126</dd>
+          </dl>
+        </div>
+      </div>
+      <div>
+        <h2>Organiza</h2>
+        <p class="lead">El Club Moteros de la Sabana es un club y concesionario de motocicletas que organiza rodadas y eventos de motociclismo en la Sabana de Bogotá desde 2015.</p>
+        <div class="card">
+          <dl>
+            <dt>Sede</dt><dd>Carrera 7 # 12-45, Chía, Cundinamarca</dd>
+            <dt>Teléfono</dt><dd>+57 601 555 0127</dd>
+            <dt>Correo</dt><dd>contacto@moterossabana.example</dd>
+            <dt>Horario</dt><dd>Lunes a sábado, 9:00 a. m. – 6:00 p. m.</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Motorcycle -->
+  <section class="moto" id="moto">
+    <div class="wrap grid2">
+      <div>
+        <h2>Cóndor <em>Trail 450</em></h2>
+        <p class="lead">Motocicleta trail de media cilindrada, pensada para carretera destapada y viajes largos. Disponible para prueba durante el evento.</p>
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/1979_Suzuki_PE175N_enduro_01.jpg?width=1200" alt="Cóndor Trail 450">
+      </div>
+      <div class="card">
+        <dl>
+          <dt>Marca</dt><dd>Cóndor Motors</dd>
+          <dt>Modelo</dt><dd>Trail 450 · 2027</dd>
+          <dt>Motor</dt><dd>Monocilíndrico, 4 tiempos, refrigerado por líquido</dd>
+          <dt>Cilindrada</dt><dd>449 cc</dd>
+          <dt>Potencia</dt><dd>42 hp</dd>
+          <dt>Caja</dt><dd>6 velocidades</dd>
+          <dt>Peso</dt><dd>172 kg</dd>
+          <dt>Combustible</dt><dd>Gasolina</dd>
+          <dt>Color</dt><dd>Naranja / Negro</dd>
+          <dt>Estado</dt><dd>Nueva · preventa</dd>
+        </dl>
+        <p class="price">$28.900.000 COP</p>
+        <small>IVA incluido. Vendida por Club Moteros de la Sabana.</small>
+      </div>
+    </div>
+  </section>
+
+  <!-- Person -->
+  <section id="piloto">
+    <div class="wrap pilot">
+      <img src="https://ui-avatars.com/api/?name=Valentina+Rojas&size=400&background=ff5a1f&color=0e0e0e&bold=true" alt="Valentina Rojas, piloto invitada">
+      <div>
+        <h2>Valentina <em>Rojas</em></h2>
+        <p class="lead" style="margin-bottom:10px">Piloto de rally enduro. Piloto colombiana de enduro, invitada especial del Rally Andino Moto Fest 2027 y miembro del Club Moteros de la Sabana.</p>
+        <div class="chips"><span>Enduro</span><span>Rally raid</span><span>Conducción off-road</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Offer -->
+  <section id="entradas">
+    <div class="wrap">
+      <div class="ticket">
+        <div>
+          <h3>Entrada general (2 días)</h3>
+          <p style="margin:6px 0 0">Disponible desde el 1 de diciembre de 2026 · Incluye prueba de manejo</p>
+        </div>
+        <div class="big">$85.000 COP</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQPage -->
+  <section id="faq">
+    <div class="wrap">
+      <h2>Preguntas <em>frecuentes</em></h2>
+      <p class="lead">Lo que más nos preguntan antes del rally.</p>
+      <details open><summary>¿Necesito traer mi propia moto?</summary><p>No. Puedes asistir como espectador; para la rodada abierta sí necesitas tu moto, licencia vigente y casco certificado.</p></details>
+      <details><summary>¿Puedo probar la Cóndor Trail 450?</summary><p>Sí. Las pruebas de manejo son gratuitas con la entrada y se reservan en el stand del Club Moteros de la Sabana.</p></details>
+      <details><summary>¿Hay parqueadero para motos?</summary><p>Sí, el autódromo tiene parqueadero vigilado para motos sin costo adicional.</p></details>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="wrap">
+      <span>© 2027 Club Moteros de la Sabana</span>
+    </div>
+  </footer>
+
+</body>
+</html>
